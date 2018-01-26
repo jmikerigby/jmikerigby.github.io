@@ -1,4 +1,7 @@
-jmikerigby.com
+---
+title: jmikerigby.com
+layout: post
+---
 
 # Site contents
 1. Maths
