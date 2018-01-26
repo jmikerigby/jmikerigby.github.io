@@ -1,6 +1,6 @@
 ---
 title: jmikerigby.com
-layout: post
+layout: default
 ---
 
 # Site contents
