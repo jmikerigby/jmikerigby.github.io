@@ -4,4 +4,4 @@ layout: default
 ---
 
 # Maths contents
-1. [Cholesky decomposition](www.jmikerigby.com/maths/cholesky.html)
+1. [Cholesky decomposition](cholesky.html)
