@@ -11,7 +11,7 @@ output:
 ### Mac
 
 Command | Description
-:----------------- | :------------------------------------------------------------------
+:----------------------------- | :------------------------------------------------------------------
 ls -la  | lists files, flags put in a list and show hidden files
 open < *filename* \| . > | opens *filename* with the default application \| opens the current directory
 touch *filename*   | stamps *filename* with current system file, but if *filename* does not exist it will be created
