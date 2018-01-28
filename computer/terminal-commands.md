@@ -11,11 +11,11 @@ output:
 ### Mac
 
 Command | Description
-:----------------------------- | :------------------------------------------------------------------
+:----------------------------------------------- | :------------------------------------------------------------------
 ls -la  | lists files, flags put in a list and show hidden files
 open < *filename* \| . > | opens *filename* with the default application \| opens the current directory
 touch *filename*   | stamps *filename* with current system file, but if *filename* does not exist it will be created
-mkdir -p *dirname* | creates the folder *dirname*
+mkdir -p *dirname* | creates the folder *dirname* - the $-p$ flag ensures that any "parent" directories will also be created
 rm *filename* | deletes *filename*
 rm -i *filenames* | prompts whether to delete each file - requires interaction
 rm -r *dirname* | deletes *dirname* and contents
