@@ -1,3 +1,7 @@
+---
+title: Definition
+layout: default
+---
 
 # Topology
 
