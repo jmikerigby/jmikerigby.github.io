@@ -9,7 +9,7 @@ Let
 
 $$
 \begin{align*}
-  & X~Poisson(\lambda)
-  & \lambda~Gamma(r,\frac{p}{1-p})
+  & X\sim Poisson(\lambda)
+  & \lambda\sim Gamma(r,\frac{p}{1-p})
 \end{align*}
 $$
