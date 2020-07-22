@@ -34,6 +34,6 @@ P(X=x) & = \int_{0}^{\infty} \left(\frac{\lambda^{x}}{x!}e^{-\lambda}\right)\lef
        & = \frac{1}{\Gamma(r)x!(\frac{p}{1-p})^r}\int_{0}^{\infty} \lambda^{x+r-1}e^{-\frac{\lambda}{p}}d\lambda \\
        & = \frac{p^{x+r}}{\Gamma(r)x!(\frac{p}{1-p})^r}\int_{0}^{\infty} u^{x+r-1}e^{-u}du \\
        & = p^{x}(1-p)^r\frac{\Gamma(r+x)}{\Gamma(r)x!} \\
-       & = {r+x-1\choose r}p^{x}(1-p)^r \\
+       & = {r+x-1\choose x}p^{x}(1-p)^r \\
 \end{align*}
 $$
