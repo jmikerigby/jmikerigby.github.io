@@ -30,7 +30,7 @@ This will prove useful in a moment.
 
 $$
 \begin{align*}
-P(X=x) & = \int_{0}^{\infty} \left(frac{\lambda{-x}}{x!}e^{-\lambda}\right)\left(frac{1}{\Gamma(r) (\frac{p}{1-p})^r} \lambda^{r- 1} e^{-\frac{\lambda}{\frac{p}{1-p}}}\right)dx\\
+P(X=x) & = \int_{0}^{\infty} \left(\frac{\lambda{-x}}{x!}e^{-\lambda}\right)\left(\frac{1}{\Gamma(r) (\frac{p}{1-p})^r} \lambda^{r- 1} e^{-\frac{\lambda}{\frac{p}{1-p}}}\right)dx\\
        & = 
 \end{align*}
 $$
