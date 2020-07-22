@@ -31,9 +31,9 @@ This will prove useful in a moment.
 $$
 \begin{align*}
 P(X=x) & = \int_{0}^{\infty} \left(\frac{\lambda^{x}}{x!}e^{-\lambda}\right)\left(\frac{1}{\Gamma(r) (\frac{p}{1-p})^r} \lambda^{r- 1} e^{-\frac{\lambda}{\frac{p}{1-p}}}\right)d\lambda\\
-       & = \frac{1}{\Gamma(r)x!(\frac{p}{1-p})^r}\int_{0}^{\infty} \lambda^{x+r-1}e^{-\frac{\lambda}{p}}d\lambda
-       & = \frac{p^{x+r}}{\Gamma(r)x!(\frac{p}{1-p})^r}\int_{0}^{\infty} u^{x+r-1}e^{-u}du
-       & = p^{x}(1-p)^r\frac{\Gamma(r+x)}{\Gamma(r)x!}
-       & = {r+x-1\choose r}p^{x}(1-p)^r
+       & = \frac{1}{\Gamma(r)x!(\frac{p}{1-p})^r}\int_{0}^{\infty} \lambda^{x+r-1}e^{-\frac{\lambda}{p}}d\lambda \\
+       & = \frac{p^{x+r}}{\Gamma(r)x!(\frac{p}{1-p})^r}\int_{0}^{\infty} u^{x+r-1}e^{-u}du \\
+       & = p^{x}(1-p)^r\frac{\Gamma(r+x)}{\Gamma(r)x!} \\
+       & = {r+x-1\choose r}p^{x}(1-p)^r \\
 \end{align*}
 $$
