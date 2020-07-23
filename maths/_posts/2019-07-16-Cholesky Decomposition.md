@@ -1,6 +1,6 @@
 ---
 title: "Cholesky decomposition"
-output: html_document
+layout: default
 ---
 
 ## Statement
