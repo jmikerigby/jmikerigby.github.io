@@ -1,11 +1,12 @@
 ---
-title: "Cholesky decomposition"
 layout: default
 ---
 
+# Cholesky decomposition
+
 ## Statement
 
-Let $A$ be a positive definite matrix. Then there exists a unique lower triangular matrix $L$ such that $A = LL^*$.
+Let \\(A\\) be a positive definite matrix. Then there exists a unique lower triangular matrix $L$ such that $A = LL^*$.
 
 There is a constructive proof of this fact which we shall go through but first it should be noted that there is a non-constructive proof that this result can be extended to positive *semi*-definite matrices, although then $L$ is not necessarily unique.
 
