@@ -22,6 +22,6 @@ $$
 
 Therefore if you started with \\(m\\) and \\(s\\) you could calculate the underlying normal parameters thus
 
-$$ \sigma^2 = 1+2log(s/m) = log(1+c^2) $$
+$$ \sigma^2 = log(1+c^2) $$
 
 $$ \mu = log(m)-\sigma^2/2 = log\left(\frac{m}{\sqrt{1+c^2}}\right) $$
