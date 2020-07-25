@@ -24,4 +24,4 @@ Therefore if you started with \\(m\\) and \\(s\\) you could calculate the underl
 
 $$ \sigma^2 = log(1+c^2) $$
 
-$$ \mu = log(m)-\sigma^2/2 = log\left(\frac{m}{\sqrt{1+c^2}}\right) $$
+$$ \mu = log(m)-\sigma^2/2 = log\left(\frac{m}{\sqrt{1+c^2}}\right) = log\left(\frac{m^2}{\sqrt{m^2+s^2}}\right) $$
