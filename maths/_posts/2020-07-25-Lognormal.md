@@ -5,9 +5,9 @@ layout: default
 
 # Lognormal Distribution
 
-Let \\(X\dist Lognormal(\mu, \sigma^2)\\)
+Let \\(X\sim Lognormal(\mu, \sigma^2)\\)
 
-Then \\(log(X)\dist Normal(\mu, \sigma^2)\\)
+Then \\(log(X)\sim Normal(\mu, \sigma^2)\\)
 
 Let \\(m\\) and \\(s\\) denote the mean and standard deviation of X. Let \\(c=s/m\\) denote the CoV.
 
