@@ -14,7 +14,7 @@ What is each player's probability of winning?
 The probability Player \\(m\\) wins is:
 
 $$
-\frac{1}{2^m}\Sum_{i=0}^{\infty}{\frac{1}{2^{ni}} = \frac{1/2^m}{1-1/2^n}
+\frac{1}{2^m}\Sum_{i=0}^{\infty}\frac{1}{2^{ni}} = \frac{1/2^m}{1-1/2^n}
 $$
 
 As a check we have
