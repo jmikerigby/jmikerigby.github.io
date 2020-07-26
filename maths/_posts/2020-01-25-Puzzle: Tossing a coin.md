@@ -14,14 +14,14 @@ What is each player's probability of winning?
 The probability Player \\(m\\) wins is:
 
 $$
-\frac{1}{2^m}\Sum_{i=0}^{\infty}\frac{1}{2^{ni}} = \frac{1/2^m}{1-1/2^n}
+\frac{1}{2^m}\sum_{i=0}^{\infty}\frac{1}{2^{ni}} = \frac{1/2^m}{1-1/2^n}
 $$
 
 As a check we have
 
 $$
-\Sum_{m=1}^{n}\frac{1/2^m}{1-1/2^n}
-= \frac{1}{1-1/2^n}\Sum_{m=1}^{n}\frac{1/2^m}
+\sum_{m=1}^{n}\frac{1/2^m}{1-1/2^n}
+= \frac{1}{1-1/2^n}\sum_{m=1}^{n}\frac{1/2^m}
 = \frac{1}{1-1/2^n}\frac{1/2-1/2^{n+1}}{1-1/2}
 = 1
 $$
