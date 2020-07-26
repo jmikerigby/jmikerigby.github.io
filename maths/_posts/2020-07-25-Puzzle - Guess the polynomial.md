@@ -34,7 +34,7 @@ Therefore:
 
 $$p(x)=x^3+2x^2+x+5$$
 
-Of course, if we wanted the questioner to do more of the work, we could instead ask for \\(p(\alpha)\\) for our second evaluation, where \\(\alpha=\text{min}_{m \in \mathbb{N}}\\{ 10^m\enspace\\|\enspace 10^m \gt p(1)\\}\\). This will leave the coefficients more easily visible and won't require expanding in another base.
+Of course, if we wanted the questioner to do more of the work, we could instead ask for \\(p(\alpha)\\) for our second evaluation, where \\(\alpha=\text{min}_{m \in \mathbb{N}}\\{ 10^m\enspace\|\enspace 10^m \gt p(1)\\}\\). This will leave the coefficients more easily visible and won't require expanding in another base.
 
 In this example, we would be told
 
