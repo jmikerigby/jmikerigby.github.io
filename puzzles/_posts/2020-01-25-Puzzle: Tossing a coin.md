@@ -8,17 +8,21 @@ Suppose \\(n\\) people are taking turns tossing a fair coin. The first to toss a
 
 What is each player's probability of winning?
 
-# Solution
+# Solution 1
 
 The probability Player \\(m\\) wins is:
 
 $$
-\frac{1}{2^m}\sum_{i=0}^{\infty}\frac{1}{2^{ni}} = \frac{1/2^m}{1-1/2^n}
+\begin{align*}
+&\frac{1}{2^m}\sum_{i=0}^{\infty}\frac{1}{2^{ni}} 
+& = \frac{1/2^m}{1-1/2^n}
+& = \frac{2^{n-m}{2^n-1}
+\end{align*}
 $$
 
-**NB** The next player, \\(m+1\\), has \\(\frac{1}{2}\\) the chances of winning as the previous player.
+**NB** The next player, \\((m+1)\\), has \\(\frac{1}{2}\\) the chances of winning as the previous player.
 
-As a check we have
+As a check, everything is as it should be, the chances someone wins is:
 
 $$
 \sum_{m=1}^{n}\frac{1/2^m}{1-1/2^n}
@@ -26,6 +30,25 @@ $$
 = \frac{1}{1-1/2^n}\frac{1/2-1/2^{n+1}}{1-1/2}
 = 1
 $$
+
+# Solution 2
+
+Another way of doing this is to recognise that each subsequent player has half the chances of winning as the previous player, as noted above, and someone will win eventually. 
+
+Therefore:
+
+$$
+1 = p\sum_{m=0}^{n-1}\frac{1/2^m}= p(2-1/2^{n-1})
+$$
+
+where \\(p\)) is the probability player 1 wins.
+
+So:
+
+$$
+p = \frac{2^{n-1}}{2^n - 1}
+$$
+
 
 # Example
 
