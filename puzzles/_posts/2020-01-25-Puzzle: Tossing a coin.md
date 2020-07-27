@@ -16,6 +16,8 @@ $$
 \frac{1}{2^m}\sum_{i=0}^{\infty}\frac{1}{2^{ni}} = \frac{1/2^m}{1-1/2^n}
 $$
 
+**NB** The next player, \\(m+1\\), has \\(\frac{1}{2}\\) the chances of winning as the previous player.
+
 As a check we have
 
 $$
