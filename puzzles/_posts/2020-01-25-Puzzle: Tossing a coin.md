@@ -29,7 +29,7 @@ $$
 &= \frac{1}{1-1/2^n}\sum_{m=1}^{n}{1/2^m} \\
 &= \frac{1}{1-1/2^n}\frac{1/2-1/2^{n+1}}{1-1/2} \\
 &= 1
-\begin(align*)
+\end(align*)
 $$
 
 # Solution 2
