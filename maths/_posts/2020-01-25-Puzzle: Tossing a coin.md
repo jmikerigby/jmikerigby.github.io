@@ -1,9 +1,8 @@
 ---
-title: Tossing a coin
 layout: default
 ---
 
-# Tossing a coin
+# Puzzle - Tossing a coin
 
 Suppose \\(n\\) people are taking turns tossing a fair coin. The first to toss a head wins. Play proceeds sequentially 1 to \\(n\\) and round again until someone wins.
 
