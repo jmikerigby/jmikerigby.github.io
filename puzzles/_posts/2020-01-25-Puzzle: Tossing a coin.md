@@ -14,9 +14,8 @@ The probability Player \\(m\\) wins is:
 
 $$
 \begin{align*}
-\frac{1}{2^m}\sum_{i=0}^{\infty}\frac{1}{2^{ni}} 
-& = \frac{1/2^m}{1-1/2^n} \\
-& = \frac{2^{n-m}{2^n-1}
+\frac{1}{2^m}\sum_{i=0}^{\infty}\frac{1}{2^{ni}} &= \frac{1/2^m}{1-1/2^n} \\
+&= \frac{2^{n-m}}{2^n-1}
 \end{align*}
 $$
 
@@ -38,10 +37,10 @@ Another way of doing this is to recognise that each subsequent player has half t
 Therefore:
 
 $$
-1 = p\sum_{m=0}^{n-1}\frac{1/2^m}= p(2-1/2^{n-1})
+1 = p\sum_{m=0}^{n-1}\frac{1}{2^m}= p(2-1/2^{n-1})
 $$
 
-where \\(p\)) is the probability player 1 wins.
+where \\(p\\) is the probability player 1 wins.
 
 So:
 
