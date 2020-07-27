@@ -26,8 +26,8 @@ As a check, everything is as it should be, the chances someone wins is:
 $$
 \begin(align*)
 \sum_{m=1}^{n}\frac{1/2^m}{1-1/2^n}
-&= \frac{1}{1-1/2^n}\sum_{m=1}^{n}{1/2^m}
-&= \frac{1}{1-1/2^n}\frac{1/2-1/2^{n+1}}{1-1/2}
+&= \frac{1}{1-1/2^n}\sum_{m=1}^{n}{1/2^m} \\
+&= \frac{1}{1-1/2^n}\frac{1/2-1/2^{n+1}}{1-1/2} \\
 &= 1
 \begin(align*)
 $$
