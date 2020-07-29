@@ -37,3 +37,5 @@ P(X=x) & = \int_{0}^{\infty} \left(\frac{\lambda^{x}}{x!}e^{-\lambda}\right)\lef
        & = {x+r-1\choose x}p^{x}(1-p)^r \tag{By $\star$}\\
 \end{align*}
 $$
+
+Therefore \\(X\sim NegBin(r,p)\\), i.e. \\(X\\) is the random variable of the number of successes before \\(r\\) number of failures, where \\(p\\) is the probability of success.
