@@ -54,3 +54,5 @@ $$
 # Example
 
 For a three person game, the probability of each player winning is \\(4/7, 2/7, 1/7\\) respectively.
+
+For an infinite person game, the probability of player \\(m\\) winning is \\(\frac{1}{2^m}\\).
